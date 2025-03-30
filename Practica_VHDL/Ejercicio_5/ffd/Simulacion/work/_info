@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.1
+Effd
+Z0 w1742334807
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Juanma\Documents\Carrera_de_especializacion_en_sistemas_embebidos\Circuitos logicos programables\TPs_CLP\Practica_VHDL\Ejercicio_5\ffd\Simulacion
+Z4 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_5/ffd/Fuentes/ffd.vhd
+Z5 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_5/ffd/Fuentes/ffd.vhd
+l0
+L5
+VlhR3R0Z4M6l>nHQM73;<>0
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1743363304.649000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_5/ffd/Fuentes/ffd.vhd|
+Z9 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_5/ffd/Fuentes/ffd.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 <EMkoLFamhj6O<7<Q<0>Y2
+!i10b 1
+Affd_arq
+R1
+R2
+DEx4 work 3 ffd 0 22 lhR3R0Z4M6l>nHQM73;<>0
+l18
+L16
+VkAB?K44dRg]e6KBn[lA?`3
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 Al_=dE5J<ElWgMRzABJ:g1
+!i10b 1
+Effd_tb
+Z12 w1743363216
+R1
+R2
+R3
+Z13 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_5/ffd/Fuentes/ffd_tb.vhd
+Z14 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_5/ffd/Fuentes/ffd_tb.vhd
+l0
+L5
+VVT;:=E7_WZT?UdP0Nj^;60
+!s100 5=fRRJ_9PT0I_`3mX=L_b1
+R6
+32
+!i10b 1
+Z15 !s108 1743363304.811000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_5/ffd/Fuentes/ffd_tb.vhd|
+Z17 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_5/ffd/Fuentes/ffd_tb.vhd|
+R10
+R11
+Affd_tb_arq
+R1
+R2
+DEx4 work 6 ffd_tb 0 22 VT;:=E7_WZT?UdP0Nj^;60
+l27
+L9
+V0IH4h_3lR<Ah0O1:YWz4z3
+!s100 2=>m_==:J<949kUPn[aNQ2
+R6
+32
+!i10b 1
+R15
+R16
+R17
+R10
+R11

@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Juanma\Documents\Carrera_de_especializacion_en_sistemas_embebidos\Circuitos logicos programables\TPs_CLP\Introduccion\neg\Simulacion
+Esum1b
+Z0 w1742264214
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Juanma\Documents\Carrera_de_especializacion_en_sistemas_embebidos\Circuitos logicos programables\TPs_CLP\Introduccion\sum1b\Simulacion
+Z4 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/sum1b/Fuentes/sum1b.vhd
+Z5 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/sum1b/Fuentes/sum1b.vhd
+l0
+L5
+VPnK4m<`[PEb]6>Z6:cbQc1
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1742264573.347000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/sum1b/Fuentes/sum1b.vhd|
+Z9 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/sum1b/Fuentes/sum1b.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 `kfHf:@nezc14hA@zAd=g2
+!i10b 1
+Asum1b_arq
+R1
+R2
+DEx4 work 5 sum1b 0 22 PnK4m<`[PEb]6>Z6:cbQc1
+l18
+L16
+VN]e1bR7=oR5LBl@IboRg?3
+!s100 L?gQ:_1Zlg32Oc>IJCkmK1
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!i10b 1
+Esum1b_tb
+Z12 w1742264564
+R1
+R2
+R3
+Z13 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/sum1b/Fuentes/sum1b_tb.vhd
+Z14 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/sum1b/Fuentes/sum1b_tb.vhd
+l0
+L5
+V1<L9SE8J8P6J>9GCN04BM2
+!s100 HoTc:fE;B=<Uk1X9=j6[X0
+R6
+32
+!i10b 1
+Z15 !s108 1742264573.456000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/sum1b/Fuentes/sum1b_tb.vhd|
+Z17 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/sum1b/Fuentes/sum1b_tb.vhd|
+R10
+R11
+Asum1b_tb_arq
+R1
+R2
+Z18 DEx4 work 8 sum1b_tb 0 22 1<L9SE8J8P6J>9GCN04BM2
+l26
+L9
+V[>ZCDUlYk8Fe;c?LHR>dB2
+!s100 :Hf8DI8=HJ^Pg[B7keleZ0
+R6
+32
+!i10b 1
+R15
+R16
+R17
+R10
+R11

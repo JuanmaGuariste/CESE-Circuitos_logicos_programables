@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.1
+Eneg
+Z0 w1742261231
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Juanma\Documents\Carrera_de_especializacion_en_sistemas_embebidos\Circuitos logicos programables\TPs_CLP\Introduccion\neg\Simulacion
+Z4 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/neg/Fuentes/neg.vhd
+Z5 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/neg/Fuentes/neg.vhd
+l0
+L5
+VH7bk;9?cMZlae48mdeinJ3
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1742263530.798000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/neg/Fuentes/neg.vhd|
+Z9 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/neg/Fuentes/neg.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 hORlhIYXU9<SVAECeUW_52
+!i10b 1
+Aneg_arq
+R1
+R2
+DEx4 work 3 neg 0 22 H7bk;9?cMZlae48mdeinJ3
+l15
+L13
+V@NAo>5[QQKAj@_CCM[D220
+!s100 `Cdjj@Gg]SN><AO9FGz=Z1
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!i10b 1
+Eneg_tb
+Z12 w1742261410
+R1
+R2
+R3
+Z13 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/neg/Fuentes/neg_tb.vhd
+Z14 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/neg/Fuentes/neg_tb.vhd
+l0
+L5
+VI99=cC6MdWmhZ_Z;T[UBa1
+!s100 B3eh`[E5Se?DobKV0l94>3
+R6
+32
+!i10b 1
+Z15 !s108 1742263530.977000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/neg/Fuentes/neg_tb.vhd|
+Z17 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/neg/Fuentes/neg_tb.vhd|
+R10
+R11
+Aneg_tb_arq
+R1
+R2
+Z18 DEx4 work 6 neg_tb 0 22 I99=cC6MdWmhZ_Z;T[UBa1
+l20
+L9
+Z19 VYgo_8lzXTAc_m@OJUZjnU1
+Z20 !s100 IPaZBcQ@ONaD6z>DT38C10
+R6
+32
+!i10b 1
+R15
+R16
+R17
+R10
+R11

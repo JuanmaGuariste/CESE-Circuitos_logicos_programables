@@ -1,0 +1,17 @@
+{C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/sum1b/Fuentes/sum1b.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/sum1b/Fuentes/sum1b.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sum1b
+-- Compiling architecture sum1b_arq of sum1b
+
+} {} {}} {C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/sum1b/Fuentes/sum1b_tb.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/sum1b/Fuentes/sum1b_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sum1b_tb
+-- Compiling architecture sum1b_tb_arq of sum1b_tb
+
+} {} {}}

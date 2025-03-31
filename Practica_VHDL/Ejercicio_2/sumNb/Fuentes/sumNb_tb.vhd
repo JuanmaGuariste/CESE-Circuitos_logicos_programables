@@ -1,5 +1,6 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
 
 -- Declaracion de entidad
 entity sumNb_tb is   
@@ -21,16 +22,16 @@ architecture sumNb_tb_arq of sumNb_tb is
         );
     end component;
 
-    constant N_tb: natural := 10;
-    signal a_tb : std_logic_vector(N_tb-1 downto 0) := "0000000011";
-    signal b_tb : std_logic_vector(N_tb-1 downto 0) := "0000000101";
+    constant N_tb: natural :=  4;
+    signal a_tb : std_logic_vector(N_tb-1 downto 0) := std_logic_vector(to_unsigned(5, N_tb));
+    signal b_tb : std_logic_vector(N_tb-1 downto 0) := std_logic_vector(to_unsigned(3, N_tb));
     signal ci_tb: std_logic := '0';
     signal s_tb : std_logic_vector(N_tb-1 downto 0);
     signal co_tb : std_logic;
 begin
     -- Parte descriptiva
-     a_tb  <= "0111100111" after 50 ns;
-     b_tb  <= "0001100001" after 100 ns;
+     a_tb  <= std_logic_vector(to_unsigned(9, N_tb)) after 50 ns;
+     b_tb  <= std_logic_vector(to_unsigned(4, N_tb)) after 100 ns;
      ci_tb <= '1' after 150 ns;
     
     DUT: sumNb

@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Juanma\Documents\Carrera_de_especializacion_en_sistemas_embebidos\Circuitos logicos programables\TPs_CLP\Practica_VHDL\Ejercicio_4\mux1b\Simulacion
+Esum1b
+Z0 w1743361198
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Juanma\Documents\Carrera_de_especializacion_en_sistemas_embebidos\Circuitos logicos programables\TPs_CLP\Practica_VHDL\Ejercicio_3\sum_res_Nb\Simulacion
+Z4 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_1/sum1b/Fuentes/sum1b.vhd
+Z5 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_1/sum1b/Fuentes/sum1b.vhd
+l0
+L5
+VPnK4m<`[PEb]6>Z6:cbQc1
+!s100 `kfHf:@nezc14hA@zAd=g2
+Z6 OV;C;10.1d;51
+32
+!i10b 1
+Z7 !s108 1743378986.506000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_1/sum1b/Fuentes/sum1b.vhd|
+Z9 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_1/sum1b/Fuentes/sum1b.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+Asum1b_arq
+R1
+R2
+Z12 DEx4 work 5 sum1b 0 22 PnK4m<`[PEb]6>Z6:cbQc1
+l18
+L16
+Z13 VN]e1bR7=oR5LBl@IboRg?3
+Z14 !s100 L?gQ:_1Zlg32Oc>IJCkmK1
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Esum_rest_nb
+Z15 w1743377785
+R1
+R2
+R3
+Z16 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_3/sum_res_Nb/Fuentes/sum_res_Nb.vhd
+Z17 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_3/sum_res_Nb/Fuentes/sum_res_Nb.vhd
+l0
+L5
+Vn`:jYFiL9[fZlH7^STilP2
+R6
+32
+Z18 !s108 1743378986.213000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_3/sum_res_Nb/Fuentes/sum_res_Nb.vhd|
+Z20 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_3/sum_res_Nb/Fuentes/sum_res_Nb.vhd|
+R10
+R11
+!s100 kCU>Qe_3NPi`10ZSX`iL;1
+!i10b 1
+Asum_rest_nb_arq
+R1
+R2
+DEx4 work 11 sum_rest_nb 0 22 n`:jYFiL9[fZlH7^STilP2
+l34
+L19
+VX@HjdcX0`eO38X:4OTajU2
+R6
+32
+R18
+R19
+R20
+R10
+R11
+!s100 WKdaKTzL_dUR@m530aDiX3
+!i10b 1
+Esum_rest_nb_tb
+Z21 w1743378980
+R1
+R2
+R3
+Z22 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_3/sum_res_Nb/Fuentes/sum_res_Nb_tb.vhd
+Z23 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_3/sum_res_Nb/Fuentes/sum_res_Nb_tb.vhd
+l0
+L5
+V[:kW?b<4O3ED^ZF5;J@U@3
+R6
+32
+Z24 !s108 1743378986.343000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_3/sum_res_Nb/Fuentes/sum_res_Nb_tb.vhd|
+Z26 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Practica_VHDL/Ejercicio_3/sum_res_Nb/Fuentes/sum_res_Nb_tb.vhd|
+R10
+R11
+!s100 bhA89[9S^olGKzU>XoTkN3
+!i10b 1
+Asum_rest_nb_tb_arq
+R1
+R2
+DEx4 work 14 sum_rest_nb_tb 0 22 [:kW?b<4O3ED^ZF5;J@U@3
+l30
+L9
+Vfg^`T^MZBQkRD`PVH2ZCV0
+R6
+32
+R24
+R25
+R26
+R10
+R11
+!s100 PiLA<6bZUh6Hl9l?oe:o;0
+!i10b 1

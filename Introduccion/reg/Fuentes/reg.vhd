@@ -5,13 +5,13 @@ USE IEEE.std_logic_1164.ALL;
 ENTITY reg IS
     generic(
         N: natural := 4
-    )
+    );
     PORT (
         clk_i : IN STD_LOGIC;
         rst_i : IN STD_LOGIC;
         ena_i : IN STD_LOGIC;
         d_i   : IN STD_LOGIC_vector(N-1 downto 0);
-        q_o   : OUT STD_LOGIC_vector(N-1 downto 0);
+        q_o   : OUT STD_LOGIC_vector(N-1 downto 0)
     );
 END;
 
@@ -24,7 +24,6 @@ BEGIN
     begin
         if rising_edge(clk_i) then
             if rst_i = '1' then
-                q_o <= '0';
                 q_o <= (N-1 downto 0 => '0'); -- O bien puede ser: q_o <= (others => '0');
             elsif ena_i = '1' then
                 q_o <= d_i;

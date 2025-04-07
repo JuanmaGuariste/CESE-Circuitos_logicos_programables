@@ -1,1 +1,18 @@
+C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Practica_VHDL/Ejercicio_8/barrel_shifter_Nbits/Fuentes/barrel_shifter_Nbits.vhd {1 {vcom -work work -2002 -explicit C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Practica_VHDL/Ejercicio_8/barrel_shifter_Nbits/Fuentes/barrel_shifter_Nbits.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity barrel_shifter_Nbits
+-- Compiling architecture barrel_shifter_Nbits_arq of barrel_shifter_Nbits
 
+} {} {}} C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Practica_VHDL/Ejercicio_8/barrel_shifter_Nbits/Fuentes/barrel_shifter_Nbits_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Practica_VHDL/Ejercicio_8/barrel_shifter_Nbits/Fuentes/barrel_shifter_Nbits_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity barrel_shifter_Nbits_tb
+-- Compiling architecture barrel_shifter_Nbits_tb_arq of barrel_shifter_Nbits_tb
+
+} {} {}}

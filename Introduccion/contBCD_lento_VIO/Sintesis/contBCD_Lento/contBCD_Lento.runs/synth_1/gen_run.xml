@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1743977634">
+  <File Type="PA-TCL" Name="contBCD_Lento_VIO.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="contBCD_Lento_VIO_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="contBCD_Lento_VIO_reports.tcl"/>
+  <File Type="RDS-RDS" Name="contBCD_Lento_VIO.vds"/>
+  <File Type="RDS-UTIL" Name="contBCD_Lento_VIO_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="contBCD_Lento_VIO_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="contBCD_Lento_VIO.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="contBCD_Lento_VIO_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="contBCD_Lento_VIO_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Introduccion/contBCD_lento/Fuentes/contBCD_Lento.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../contBCD_lento/Fuentes/contBCD_Lento.vhd"/>
+        <Attr Name="ImportTime" Val="1743972893"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Introduccion/contNb_MOD/Fuentes/contNb_MOD.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../contNb_MOD/Fuentes/contNb_MOD.vhd"/>
+        <Attr Name="ImportTime" Val="1743389906"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Introduccion/contBCD_lento_VIO/Fuentes/genEna.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Fuentes/genEna.vhd"/>
+        <Attr Name="ImportTime" Val="1743973219"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Introduccion/reg/Fuentes/reg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../reg/Fuentes/reg.vhd"/>
+        <Attr Name="ImportTime" Val="1743388535"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Introduccion/contBCD_lento_VIO/Fuentes/contBCD_Lento_VIO.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Fuentes/contBCD_Lento_VIO.vhd"/>
+        <Attr Name="ImportTime" Val="1743976254"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="contBCD_Lento_VIO"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Fuentes/Arty-Z7-10-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Fuentes/Arty-Z7-10-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1743959953"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="vio_0"/>
+</GenRun>

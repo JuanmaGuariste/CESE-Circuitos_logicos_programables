@@ -1,0 +1,188 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.1
+Econtbcd_lento
+Z0 w1743972893
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Juanma\Documents\Carrera_de_especializacion_en_sistemas_embebidos\Circuitos logicos programables\TPs_CLP\Introduccion\contBCD_lento\Simulacion
+Z5 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contBCD_lento/Fuentes/contBCD_Lento.vhd
+Z6 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contBCD_lento/Fuentes/contBCD_Lento.vhd
+l0
+L6
+V[3;5omaDLbMNZfCfNFC7X0
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1743973225.297000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contBCD_lento/Fuentes/contBCD_Lento.vhd|
+Z10 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contBCD_lento/Fuentes/contBCD_Lento.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 hgCh=@E>k?=l[lXFG3k[Q2
+!i10b 1
+Acontbcd_lento_arq
+R1
+R2
+R3
+DEx4 work 13 contbcd_lento 0 22 [3;5omaDLbMNZfCfNFC7X0
+l51
+L20
+V@<WX6RQlN[]WEPV6k1@iT1
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 iaSO26<@CGdboe5zHRMzE3
+!i10b 1
+Econtbcd_lento_tb
+Z13 w1743973071
+R1
+R2
+R3
+R4
+Z14 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contBCD_lento/Fuentes/contBCD_Lento_tb.vhd
+Z15 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contBCD_lento/Fuentes/contBCD_Lento_tb.vhd
+l0
+L6
+VNZh@CCD<YD4no61QMhQHF0
+R7
+32
+Z16 !s108 1743973225.449000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contBCD_lento/Fuentes/contBCD_Lento_tb.vhd|
+Z18 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contBCD_lento/Fuentes/contBCD_Lento_tb.vhd|
+R11
+R12
+!s100 0o9^A<HE:dHZMaGPKYH`[2
+!i10b 1
+Acontbcd_lento_tb_arq
+R1
+R2
+R3
+DEx4 work 16 contbcd_lento_tb 0 22 NZh@CCD<YD4no61QMhQHF0
+l31
+L10
+V2c:LE>k0;dTjf?6A1iIV?0
+R7
+32
+R16
+R17
+R18
+R11
+R12
+!s100 z^QRz^[G^RR;PbR:^A;7b3
+!i10b 1
+Econtnb_mod
+Z19 w1743389906
+R1
+R2
+R3
+R4
+Z20 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contNb_MOD/Fuentes/contNb_MOD.vhd
+Z21 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contNb_MOD/Fuentes/contNb_MOD.vhd
+l0
+L6
+Vg[<:H92FL_`EH]4S?6[oV0
+R7
+32
+Z22 !s108 1743973225.776000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contNb_MOD/Fuentes/contNb_MOD.vhd|
+Z24 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contNb_MOD/Fuentes/contNb_MOD.vhd|
+R11
+R12
+!s100 ?bD^<[DCcIV1n1H5Wl0=A2
+!i10b 1
+Acontnb_mod_arq
+R1
+R2
+R3
+DEx4 work 10 contnb_mod 0 22 g[<:H92FL_`EH]4S?6[oV0
+l37
+L21
+V>7iKTjJ1N8ed>_0;:E0561
+!s100 UnnO=7UNFd5aK549KadfV2
+R7
+32
+R22
+R23
+R24
+R11
+R12
+!i10b 1
+Egenena
+Z25 w1743973219
+R1
+R2
+R3
+R4
+Z26 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contBCD_lento/Fuentes/genEna.vhd
+Z27 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contBCD_lento/Fuentes/genEna.vhd
+l0
+L6
+VCLhb^:8b[IHCIe1Jf;?Rl1
+R7
+32
+Z28 !s108 1743973225.599000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contBCD_lento/Fuentes/genEna.vhd|
+Z30 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/contBCD_lento/Fuentes/genEna.vhd|
+R11
+R12
+!s100 ABKEYN4Nm>J0iUZ=3gE0B3
+!i10b 1
+Agenena_arq
+R1
+R2
+R3
+DEx4 work 6 genena 0 22 CLhb^:8b[IHCIe1Jf;?Rl1
+l21
+L19
+VZXiRgWmGCb=FOd]V@`;_>2
+R7
+32
+R28
+R29
+R30
+R11
+R12
+!s100 >YSPaAX:V[z;TEnb>4zPb2
+!i10b 1
+Ereg
+Z31 w1743388535
+R2
+R3
+R4
+Z32 8C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/reg/Fuentes/reg.vhd
+Z33 FC:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/reg/Fuentes/reg.vhd
+l0
+L5
+VIJ0M^Kb<n4Dl1P80gD=N23
+!s100 GeU:PzeC@3V:NAXCY51aZ3
+R7
+32
+!i10b 1
+Z34 !s108 1743973225.924000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/reg/Fuentes/reg.vhd|
+Z36 !s107 C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/reg/Fuentes/reg.vhd|
+R11
+R12
+Areg_arq
+R2
+R3
+Z37 DEx4 work 3 reg 0 22 IJ0M^Kb<n4Dl1P80gD=N23
+l21
+L19
+Z38 VSBF5I?Kc2A2XA4kFf3N`g0
+Z39 !s100 L9>_zD`^?RBKG64NXQ=kk2
+R7
+32
+!i10b 1
+R34
+R35
+R36
+R11
+R12

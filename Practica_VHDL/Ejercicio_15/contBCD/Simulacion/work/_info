@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.1
+Econtbcd
+Z0 w1743996305
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Juanma\Documents\CESE\CLP\TPs_CLP\Practica_VHDL\Ejercicio_15\contBCD\Simulacion
+Z5 8C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Practica_VHDL/Ejercicio_15/contBCD/Fuentes/contBCD.vhd
+Z6 FC:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Practica_VHDL/Ejercicio_15/contBCD/Fuentes/contBCD.vhd
+l0
+L6
+Vc>_kD`0Xi[E`_88?<2lfX3
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1743996488.447000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Practica_VHDL/Ejercicio_15/contBCD/Fuentes/contBCD.vhd|
+Z10 !s107 C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Practica_VHDL/Ejercicio_15/contBCD/Fuentes/contBCD.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 =6nNYJI<:Dl<Bzbm?[>ke0
+!i10b 1
+Acontbcd_arq
+R1
+R2
+R3
+DEx4 work 7 contbcd 0 22 c>_kD`0Xi[E`_88?<2lfX3
+l22
+L19
+VV>Y:4n9jGe0oJV32EodV[0
+!s100 A7>INGW7R^I7;S`mYC@Q43
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!i10b 1
+Econtbcd_tb
+Z13 w1743996483
+R1
+R2
+R3
+R4
+Z14 8C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Practica_VHDL/Ejercicio_15/contBCD/Fuentes/contBCD_tb.vhd
+Z15 FC:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Practica_VHDL/Ejercicio_15/contBCD/Fuentes/contBCD_tb.vhd
+l0
+L6
+VDQiCWCHGhkWG[Gf^jUN6]3
+!s100 8go184koKFkZ5Y8=UV0mh2
+R7
+32
+!i10b 1
+Z16 !s108 1743996488.614000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Practica_VHDL/Ejercicio_15/contBCD/Fuentes/contBCD_tb.vhd|
+Z18 !s107 C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Practica_VHDL/Ejercicio_15/contBCD/Fuentes/contBCD_tb.vhd|
+R11
+R12
+Acontbcd_tb_arq
+R1
+R2
+R3
+Z19 DEx4 work 10 contbcd_tb 0 22 DQiCWCHGhkWG[Gf^jUN6]3
+l31
+L10
+VWGnAlL5PJPc3`Sbdo8[>_2
+!s100 NRJY>k353eHmlK1ANTVHM1
+R7
+32
+!i10b 1
+R16
+R17
+R18
+R11
+R12

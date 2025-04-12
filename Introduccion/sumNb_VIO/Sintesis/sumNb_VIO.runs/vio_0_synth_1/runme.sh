@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos programables/TPs_CLP/Introduccion/sumNb_VIO/Sintesis/sumNb_VIO.runs/vio_0_synth_1'
+HD_PWD='C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Introduccion/sumNb_VIO/Sintesis/sumNb_VIO.runs/vio_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

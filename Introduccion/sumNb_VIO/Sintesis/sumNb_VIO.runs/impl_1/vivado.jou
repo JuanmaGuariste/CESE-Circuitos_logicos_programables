@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Apr 12 12:48:55 2025
+# Process ID: 16736
+# Current directory: C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Introduccion/sumNb_VIO/Sintesis/sumNb_VIO.runs/impl_1
+# Command line: vivado.exe -log sumNb_VIO.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sumNb_VIO.tcl -notrace
+# Log file: C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Introduccion/sumNb_VIO/Sintesis/sumNb_VIO.runs/impl_1/sumNb_VIO.vdi
+# Journal file: C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Introduccion/sumNb_VIO/Sintesis/sumNb_VIO.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source sumNb_VIO.tcl -notrace

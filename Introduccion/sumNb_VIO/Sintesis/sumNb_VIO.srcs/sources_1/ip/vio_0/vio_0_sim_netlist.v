@@ -1,11 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-// Date        : Sun Apr  6 13:57:25 2025
+// Date        : Sat Apr 12 12:30:48 2025
 // Host        : DESKTOP-NG7OJN9 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               {c:/Users/Juanma/Documents/Carrera_de_especializacion_en_sistemas_embebidos/Circuitos logicos
-//               programables/TPs_CLP/Introduccion/sumNb_VIO/Sintesis/sumNb_VIO.srcs/sources_1/ip/vio_0/vio_0_sim_netlist.v}
+//               c:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/Introduccion/sumNb_VIO/Sintesis/sumNb_VIO.srcs/sources_1/ip/vio_0/vio_0_sim_netlist.v
 // Design      : vio_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.

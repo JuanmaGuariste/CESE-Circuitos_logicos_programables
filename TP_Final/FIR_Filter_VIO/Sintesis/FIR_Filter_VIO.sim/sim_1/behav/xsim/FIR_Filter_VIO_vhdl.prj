@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FIR_Filter_VIO.srcs/sources_1/ip/vio_0/sim/vio_0.vhd" \
+"../../../../../Fuentes/FIR_Filter.vhd" \
+"../../../../../Fuentes/acum_fase.vhd" \
+"../../../../../Fuentes/genEna.vhd" \
+"../../../../../Fuentes/nco.vhd" \
+"../../../../../Fuentes/sin_cos.vhd" \
+"../../../../../Fuentes/sin_rom.vhd" \
+"../../../../../Fuentes/FIR_Filter_VIO.vhd" \
+
+# Do not sort compile order
+nosort

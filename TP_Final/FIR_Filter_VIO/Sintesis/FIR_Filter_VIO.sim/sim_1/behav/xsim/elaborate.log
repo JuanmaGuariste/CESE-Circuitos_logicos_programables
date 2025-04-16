@@ -1,0 +1,23 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 0b3c94f25520402fac241dd2fea2824c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot FIR_Filter_VIO_behav xil_defaultlib.FIR_Filter_VIO -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling architecture vio_0_arch of entity xil_defaultlib.vio_0 [vio_0_default]
+Compiling architecture beh of entity xil_defaultlib.Acum_Fase [\Acum_Fase(q=32767,n=12,incremen...]
+Compiling architecture xilinx of entity xil_defaultlib.Sin_Rom [sin_rom_default]
+Compiling architecture rtl of entity xil_defaultlib.Sin_Cos [\Sin_Cos(addr_w=12)\]
+Compiling architecture p of entity xil_defaultlib.nco [\nco(paso_w=6)\]
+Compiling architecture fir_filter_arq of entity xil_defaultlib.FIR_Filter [fir_filter_default]
+Compiling architecture genena_arq of entity xil_defaultlib.genEna [\genEna(n=10)\]
+Compiling architecture fir_filter_vio_arq of entity xil_defaultlib.fir_filter_vio
+Built simulation snapshot FIR_Filter_VIO_behav

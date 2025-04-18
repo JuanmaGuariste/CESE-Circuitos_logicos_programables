@@ -9,34 +9,35 @@ entity FIR_Filter_VIO is
 end entity;
 
 architecture FIR_Filter_VIO_arq of FIR_Filter_VIO is
+    signal sen_out_low         : unsigned(9 downto 0);          -- Señal para salida senoidal del NCO de baja frecuencia
+    signal sen_out_high        : unsigned(9 downto 0);          -- Señal para salida senoidal del NCO de alta frecuencia
+    signal sen_out_ext         : std_logic_vector(11 downto 0); -- Señal extendida donde se combinan las dos senoidales
+    signal fir_out             : std_logic_vector(11 downto 0); -- Salida final del filtro FIR
+    signal salGenEna           : std_logic;                     -- Señal de habilitación generada por genEna
+    signal probe_paso_sen_low  : std_logic_vector(5 downto 0);  -- Paso NCO low
+    signal probe_paso_sen_high : std_logic_vector(5 downto 0);  -- Paso NCO high
+    signal probe_rst           : std_logic_vector(0 downto 0);  -- Reset global controlado desde VIO
 
-
-    signal paso_sen_low  : unsigned(5 downto 0);
-    signal paso_sen_high : unsigned(5 downto 0);
-
-    signal sen_out_low  : unsigned(9 downto 0);
-    signal sen_out_high : unsigned(9 downto 0);
-    signal sen_low_c    : signed(15 downto 0);
-    signal sen_high_c   : signed(15 downto 0);
-    signal sen_sum_signed : signed(15 downto 0);
-    signal sen_out_ext    : std_logic_vector(15 downto 0);
-    signal fir_out        : std_logic_vector(31 downto 0);
-    signal salGenEna      : std_logic;
-
-    -- Señales para el VIO
-    signal probe_paso_sen_low  : std_logic_vector(5 downto 0);
-    signal probe_paso_sen_high : std_logic_vector(5 downto 0);
-    signal probe_rst           : std_logic_vector(0 downto 0);
-
-    COMPONENT vio_0
-        PORT (
-            clk        : IN STD_LOGIC;
-            probe_out0 : OUT STD_LOGIC_VECTOR(5 DOWNTO 0);
-            probe_out1 : OUT STD_LOGIC_VECTOR(5 DOWNTO 0);
-            probe_out2 : OUT STD_LOGIC_VECTOR(0 DOWNTO 0)
+    -- Componente para Virtual I/O (VIO) de debug y control desde Vivado
+    component vio_0
+    port (
+            clk        : in std_logic;
+            probe_out0 : out std_logic_vector(5 downto 0);
+            probe_out1 : out std_logic_vector(5 downto 0);
+            probe_out2 : out std_logic_vector(0 downto 0)
         );
-    END COMPONENT;
+        end component;
 
+    -- Componente para Integrated Logic Analyzer (ILA) - capturar señales para debug
+    component ila_0    
+    port (
+            clk    : in std_logic;  
+            probe0 : in std_logic_vector(11 downto 0);
+            probe1 : in std_logic_vector(11 downto 0)
+        );
+        end component;
+
+    -- NCO: Oscilador controlado numéricamente para generar senoidales discretas
     component nco
         generic(
             DATA_W : natural := 11;
@@ -53,6 +54,7 @@ architecture FIR_Filter_VIO_arq of FIR_Filter_VIO is
         );
     end component;
 
+    -- Filtro FIR: filtra las senoidales combinadas generadas por los NCO
     component FIR_Filter
         generic(
             NUM_TAPS : natural := 33
@@ -61,11 +63,12 @@ architecture FIR_Filter_VIO_arq of FIR_Filter_VIO is
             clk_i  : in std_logic;
             rst_i  : in std_logic;
             ena_i  : in std_logic;
-            data_i : in std_logic_vector(15 downto 0);
-            data_o : out std_logic_vector(31 downto 0)
+            data_i : in std_logic_vector(11 downto 0);
+            data_o : out std_logic_vector(11 downto 0)
         );
     end component;
 
+    -- Generador de enable: divide la frecuencia del clock para controlar cada cuánto procesa el FIR
     component genEna is  
         generic (
             N : natural := 1000
@@ -79,8 +82,18 @@ architecture FIR_Filter_VIO_arq of FIR_Filter_VIO is
     end component;
 
 begin
+    -- Combinación de las dos senoidales (baja y alta) una vez por cada habilitación generada
+    process(clk_i)
+    begin
+        if rising_edge(clk_i) then
+            if salGenEna = '1' then 
+                -- Ajusta el tamaño de las señales y las suma
+                sen_out_ext <= std_logic_vector(resize(sen_out_low,12) + resize(sen_out_high,12));        
+            end if;
+        end if;
+    end process;
 
-    -- VIO instanciado
+    -- Instancia del VIO
     inst_vio : vio_0
         port map (
             clk        => clk_i,
@@ -89,40 +102,35 @@ begin
             probe_out2 => probe_rst
         );
 
-    -- Conversión del paso de std_logic_vector a unsigned
-    paso_sen_low  <= unsigned(probe_paso_sen_low);
-    paso_sen_high <= unsigned(probe_paso_sen_high);
+    -- Instancia del ILA 
+    inst_ila : ila_0
+        port map (
+            clk    => clk_i, 
+            probe0 => sen_out_ext,
+            probe1 => fir_out
+        );
 
-    -- NCOs
+    -- NCO de baja frecuencia
     inst_nco_low: nco
         port map(
             clk        => clk_i,
             rst        => probe_rst(0),
-            paso       => paso_sen_low,
+            paso       => unsigned(probe_paso_sen_low),
             salida_sen => sen_out_low,
             salida_cos => open
         );
 
+    -- NCO de alta frecuencia
     inst_nco_high: nco
         port map(
             clk        => clk_i,
             rst        => probe_rst(0),
-            paso       => paso_sen_high,
+            paso       => unsigned(probe_paso_sen_high),
             salida_sen => sen_out_high,
             salida_cos => open
         );
 
-    -- Resteo de media (512) para centrar
-    sen_low_c  <= signed(resize(sen_out_low,16)) - to_signed(512,16);
-    sen_high_c <= signed(resize(sen_out_high,16)) - to_signed(512,16);
-
-    -- Suma de senoidales centradas
-    sen_sum_signed <= sen_low_c + sen_high_c;
-
-    -- Conversión para el filtro
-    sen_out_ext <= std_logic_vector(sen_sum_signed);
-
-    -- Filtro FIR
+    -- Filtro FIR que procesa la señal compuesta generada por los NCO
     inst_fir: FIR_Filter
         port map(
             clk_i  => clk_i,
@@ -132,10 +140,10 @@ begin
             data_o => fir_out
         );
 
-    -- Generador de habilitación
+    -- Generador de habilitación: crea un pulso cada N ciclos
     inst_genEna: genEna
         generic map(
-            N => 10
+            N => 10 -- Cada 10 ciclos de reloj se genera habilitación
         )
         port map(
             clk_i => clk_i,

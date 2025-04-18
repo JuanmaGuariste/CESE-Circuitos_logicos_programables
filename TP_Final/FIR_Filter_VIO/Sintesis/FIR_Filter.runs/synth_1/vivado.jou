@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Apr 17 20:09:36 2025
+# Process ID: 9992
+# Current directory: C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter_VIO/Sintesis/FIR_Filter.runs/synth_1
+# Command line: vivado.exe -log FIR_Filter_VIO.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FIR_Filter_VIO.tcl
+# Log file: C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter_VIO/Sintesis/FIR_Filter.runs/synth_1/FIR_Filter_VIO.vds
+# Journal file: C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter_VIO/Sintesis/FIR_Filter.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source FIR_Filter_VIO.tcl -notrace

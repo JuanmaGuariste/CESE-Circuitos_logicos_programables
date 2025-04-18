@@ -1,85 +1,70 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
+use IEEE.math_real.all;
 
 entity FIR_Filter is
     generic (
-        NUM_TAPS : natural := 33  -- Número total de coeficientes
+        NUM_TAPS : natural := 33;  -- Orden 32 (N+1 taps)
+        DATA_W   : natural := 12   -- Ancho de palabra de datos
     );
     port(
-        clk_i   : in std_logic;
-        rst_i   : in std_logic;
-        ena_i   : in std_logic;
-        data_i  : in std_logic_vector(15 downto 0);
-        data_o  : out std_logic_vector(31 downto 0)
+        clk_i   : in  std_logic;
+        rst_i   : in  std_logic;
+        ena_i   : in  std_logic;
+        data_i  : in  std_logic_vector(DATA_W - 1 downto 0);
+        data_o  : out std_logic_vector(DATA_W - 1 downto 0)
     );
-end;
+end entity;
 
 architecture FIR_Filter_arq of FIR_Filter is
-    type coef_array_t is array(0 to NUM_TAPS-1) of signed(15 downto 0);
-    type sample_array_t is array(0 to NUM_TAPS-1) of signed(15 downto 0);
+    type coef_array_t is array(0 to NUM_TAPS - 1) of signed(DATA_W - 1 downto 0);
+    type sample_array_t is array(0 to NUM_TAPS - 1) of signed(DATA_W - 1 downto 0);
 
+    -- Coeficientes del filtro FIR con ventana de Hamming (fc = 0.1, orden 32)
+    -- Escalados a 12 bits con factor de 2047
     constant h : coef_array_t := (
-        to_signed(5, 16),
-        to_signed(9, 16),
-        to_signed(14, 16),
-        to_signed(21, 16),
-        to_signed(30, 16),
-        to_signed(42, 16),
-        to_signed(58, 16),
-        to_signed(78, 16),
-        to_signed(102, 16),
-        to_signed(131, 16),
-        to_signed(165, 16),
-        to_signed(204, 16),
-        to_signed(248, 16),
-        to_signed(295, 16),
-        to_signed(345, 16),
-        to_signed(397, 16),
-        to_signed(450, 16),
-        to_signed(503, 16),
-        to_signed(555, 16),
-        to_signed(606, 16),
-        to_signed(654, 16),
-        to_signed(699, 16),
-        to_signed(741, 16),
-        to_signed(778, 16),
-        to_signed(811, 16),
-        to_signed(838, 16),
-        to_signed(861, 16),
-        to_signed(878, 16),
-        to_signed(889, 16),
-        to_signed(894, 16),
-        to_signed(894, 16),
-        to_signed(889, 16),
-        to_signed(878, 16)
+        to_signed(-9, DATA_W),   to_signed(-16, DATA_W),  to_signed(-24, DATA_W),
+        to_signed(-28, DATA_W),  to_signed(-22, DATA_W),  to_signed(-1, DATA_W),
+        to_signed(37, DATA_W),   to_signed(89, DATA_W),   to_signed(147, DATA_W),
+        to_signed(201, DATA_W),  to_signed(239, DATA_W),  to_signed(251, DATA_W),
+        to_signed(231, DATA_W),  to_signed(180, DATA_W),  to_signed(104, DATA_W),
+        to_signed(14, DATA_W),   to_signed(-76, DATA_W),  to_signed(-150, DATA_W),
+        to_signed(-196, DATA_W), to_signed(-204, DATA_W), to_signed(-172, DATA_W),
+        to_signed(-106, DATA_W), to_signed(-19, DATA_W),  to_signed(70, DATA_W),
+        to_signed(142, DATA_W),  to_signed(180, DATA_W),  to_signed(180, DATA_W),
+        to_signed(142, DATA_W),  to_signed(70, DATA_W),   to_signed(-19, DATA_W),
+        to_signed(-106, DATA_W), to_signed(-172, DATA_W), to_signed(-204, DATA_W)
     );
 
     signal x_reg : sample_array_t := (others => (others => '0'));
 
 begin
     process(clk_i)
-        variable acc_var     : signed(63 downto 0);
-        variable mult_result : signed(63 downto 0);
+        variable acc : signed(2*DATA_W + integer(ceil(log2(real(NUM_TAPS))))-1 downto 0);
+        variable acc_rescaled : signed(DATA_W-1 downto 0);
     begin
         if rising_edge(clk_i) then
             if rst_i = '1' then
-                x_reg <= (others => (others => '0'));
+                x_reg  <= (others => (others => '0'));
                 data_o <= (others => '0');
             elsif ena_i = '1' then
-                -- Shift register de muestras
-                for i in NUM_TAPS-1 downto 1 loop
-                    x_reg(i) <= x_reg(i-1);
+                -- Desplazar muestras
+                for i in NUM_TAPS - 1 downto 1 loop
+                    x_reg(i) <= x_reg(i - 1);
                 end loop;
                 x_reg(0) <= signed(data_i);
-                -- Acumulador
-                acc_var := (others => '0');
-                for i in 0 to NUM_TAPS-1 loop
-                    mult_result := resize(h(i), 32) * resize(x_reg(i), 32);
-                    acc_var := acc_var + mult_result;
+
+                -- Multiplicación y acumulación
+                acc := (others => '0');
+                for i in 0 to NUM_TAPS - 1 loop
+                    acc := acc + h(i) * x_reg(i);
                 end loop;
-                -- Q15 shift
-                data_o <= std_logic_vector(resize(shift_right(acc_var, 15), 32));
+
+                -- Normalización con redondeo
+                data_o <= std_logic_vector(resize(shift_right(acc + 1024, 11), DATA_W));
+                --acc_rescaled := resize(shift_right(acc + to_signed(1024, acc'length), 11), DATA_W);
+                --data_o <= std_logic_vector(acc_rescaled);      
             end if;
         end if;
     end process;

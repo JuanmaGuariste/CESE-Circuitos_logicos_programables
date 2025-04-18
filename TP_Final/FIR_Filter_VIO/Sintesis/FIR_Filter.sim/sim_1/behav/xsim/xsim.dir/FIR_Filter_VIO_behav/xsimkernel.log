@@ -1,0 +1,4 @@
+Running: xsim.dir/FIR_Filter_VIO_behav/xsimk.exe -simmode gui -wdb FIR_Filter_VIO_behav.wdb -simrunnum 0 -socket 50475
+Design successfully loaded
+Design Loading Memory Usage: 7684 KB (Peak: 7684 KB)
+Design Loading CPU Usage: 61 ms

@@ -17,7 +17,7 @@ L11
 V7OcMjIN=SE1l^8JSR?WG@1
 Z8 OV;C;10.1d;51
 32
-Z9 !s108 1744861003.918000
+Z9 !s108 1744940631.114000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/acum_fase.vhd|
 Z11 !s107 C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/acum_fase.vhd|
 Z12 o-work work -2002 -explicit -O0
@@ -33,6 +33,7 @@ DEx4 work 9 acum_fase 0 22 7OcMjIN=SE1l^8JSR?WG@1
 l30
 L24
 VL^c7J=_b8Jiz=Wh4JlzOE0
+!s100 z_`ZEVi=XPF]We;VANE;k1
 R8
 32
 R9
@@ -40,25 +41,24 @@ R10
 R11
 R12
 R13
-!s100 z_`ZEVi=XPF]We;VANE;k1
 !i10b 1
 Efir_filter
-Z14 w1744860875
+Z14 w1744936044
 R1
 R2
 R3
 R4
 R5
-Z15 8C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/FIR_Filter.vhd
-Z16 FC:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/FIR_Filter.vhd
+Z15 8C:\Users\Juanma\Documents\CESE\CLP\TPs_CLP\TP_Final\FIR_Filter\Fuentes\FIR_Filter.vhd
+Z16 FC:\Users\Juanma\Documents\CESE\CLP\TPs_CLP\TP_Final\FIR_Filter\Fuentes\FIR_Filter.vhd
 l0
 L6
 VSW88jBI3h0Gjo?`3d_k>I1
 R8
 32
-Z17 !s108 1744861003.978000
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/FIR_Filter.vhd|
-Z19 !s107 C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/FIR_Filter.vhd|
+Z17 !s108 1744940630.701000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Juanma\Documents\CESE\CLP\TPs_CLP\TP_Final\FIR_Filter\Fuentes\FIR_Filter.vhd|
+Z19 !s107 C:\Users\Juanma\Documents\CESE\CLP\TPs_CLP\TP_Final\FIR_Filter\Fuentes\FIR_Filter.vhd|
 R12
 R13
 !s100 aM7@]e:cEAV<3U?V0AKn60
@@ -69,9 +69,9 @@ R2
 R3
 R4
 DEx4 work 10 fir_filter 0 22 SW88jBI3h0Gjo?`3d_k>I1
-l42
+l45
 L20
-VB2BI_O^]h>^^KN`3Lk<_G2
+VZcimocXkK^_Vcn6HkZLF[2
 R8
 32
 R17
@@ -79,28 +79,10 @@ R18
 R19
 R12
 R13
-!s100 _WkRZiU8LcF6zM^YnMo7V0
-!i10b 1
-Artl
-R2
-R3
-R4
-DEx4 work 10 fir_filter 0 22 oa<0QGBX:g;`CF9:SgeOQ0
-l57
-L19
-VSNg`TGlOQmJWQDA0zWZ881
-R8
-32
-R18
-R19
-R12
-R13
-w1744860800
-!s108 1744860803.612000
-!s100 LUPiBRJh[0D=jLU2?EnfN2
+!s100 Z2fD7^En]]N0`ke20?R6`1
 !i10b 1
 Efir_filter_tb
-Z20 w1744860997
+Z20 w1744940617
 R2
 R3
 R4
@@ -112,21 +94,21 @@ L5
 VP]<hRP_e8lBa<jn;IePAk0
 R8
 32
-Z23 !s108 1744861004.044000
+Z23 !s108 1744940630.778000
 Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/FIR_Filter_tb.vhd|
 Z25 !s107 C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/FIR_Filter_tb.vhd|
 R12
 R13
 !s100 Qclo<XgUTNoCoMA>k6;U91
 !i10b 1
-Atest
+Afir_filter_arq
 R2
 R3
 R4
-Z26 DEx4 work 13 fir_filter_tb 0 22 P]<hRP_e8lBa<jn;IePAk0
-l76
+DEx4 work 13 fir_filter_tb 0 22 P]<hRP_e8lBa<jn;IePAk0
+l72
 L8
-VRBSSUQ]NRQYD:@9DSf2j^0
+VM]z1BoFUJzcVU@SKQCmi;1
 R8
 32
 R23
@@ -134,42 +116,24 @@ R24
 R25
 R12
 R13
-!s100 K1GVAgkL_ofCEPl@mZ4fL2
-!i10b 1
-Afir_filter_arq_tb
-R2
-R3
-R4
-R26
-l77
-L8
-VzbkDUGWZUo12VYfL^?I1G0
-R8
-32
-R24
-R12
-R13
-w1744857605
-R25
-!s108 1744857611.184000
-!s100 ;ndNz=mgmaZc:3iEh`f^11
+!s100 =<n^6QMT26L5MISZci`W62
 !i10b 1
 Egenena
-Z27 w1744656113
+Z26 w1744656113
 R2
 R3
 R4
 R5
-Z28 8C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/genEna.vhd
-Z29 FC:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/genEna.vhd
+Z27 8C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/genEna.vhd
+Z28 FC:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/genEna.vhd
 l0
 L6
 VCLhb^:8b[IHCIe1Jf;?Rl1
 R8
 32
-Z30 !s108 1744861004.129000
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/genEna.vhd|
-Z32 !s107 C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/genEna.vhd|
+Z29 !s108 1744940630.869000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/genEna.vhd|
+Z31 !s107 C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/genEna.vhd|
 R12
 R13
 !s100 ABKEYN4Nm>J0iUZ=3gE0B3
@@ -184,30 +148,30 @@ L19
 VZXiRgWmGCb=FOd]V@`;_>2
 R8
 32
+R29
 R30
 R31
-R32
 R12
 R13
 !s100 >YSPaAX:V[z;TEnb>4zPb2
 !i10b 1
 Enco
-Z33 w1637266276
+Z32 w1637266276
 R1
 R2
 R3
 R4
 R5
-Z34 8C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/nco.vhd
-Z35 FC:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/nco.vhd
+Z33 8C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/nco.vhd
+Z34 FC:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/nco.vhd
 l0
 L11
 VGgHT7HbaAS>oOmfA=FO]?3
 R8
 32
-Z36 !s108 1744861004.188000
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/nco.vhd|
-Z38 !s107 C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/nco.vhd|
+Z35 !s108 1744940630.952000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/nco.vhd|
+Z37 !s107 C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/nco.vhd|
 R12
 R13
 !s100 c53YR5RH<z`YQ]TF;jze31
@@ -223,29 +187,29 @@ L27
 V:?U[2=8<j2YEEG1ZHkVKc1
 R8
 32
+R35
 R36
 R37
-R38
 R12
 R13
 !s100 ;Ic8QQ>InYL<hiSVX7MLC3
 !i10b 1
 Esin_cos
-Z39 w1426260118
+Z38 w1426260118
 R2
 R3
 R4
 R5
-Z40 8C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_cos.vhd
-Z41 FC:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_cos.vhd
+Z39 8C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_cos.vhd
+Z40 FC:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_cos.vhd
 l0
 L5
 VIcZbM0?;`6Mi2E4o7kX=h1
 R8
 32
-Z42 !s108 1744861004.249000
-Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_cos.vhd|
-Z44 !s107 C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_cos.vhd|
+Z41 !s108 1744940631.032000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_cos.vhd|
+Z43 !s107 C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_cos.vhd|
 R12
 R13
 !s100 VWX;TA2dA;on>`B^Ajz2P3
@@ -258,24 +222,24 @@ DEx4 work 7 sin_cos 0 22 IcZbM0?;`6Mi2E4o7kX=h1
 l43
 L18
 Vi?h<Gcm9gFbEhM8e2^kao2
-!s100 ;ZBGZ6Yg58:9TJD?`d2IB3
 R8
 32
+R41
 R42
 R43
-R44
 R12
 R13
+!s100 ;ZBGZ6Yg58:9TJD?`d2IB3
 !i10b 1
 Esin_rom
-Z45 w1354129298
+Z44 w1354129298
 R1
 R2
 R3
 R4
 R5
-Z46 8C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_rom.vhd
-Z47 FC:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_rom.vhd
+Z45 8C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_rom.vhd
+Z46 FC:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_rom.vhd
 l0
 L11
 VgP6d1jJ:GB^=^OIN<DnYQ1
@@ -283,9 +247,9 @@ VgP6d1jJ:GB^=^OIN<DnYQ1
 R8
 32
 !i10b 1
-Z48 !s108 1744861004.310000
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_rom.vhd|
-Z50 !s107 C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_rom.vhd|
+Z47 !s108 1744940631.190000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_rom.vhd|
+Z49 !s107 C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_rom.vhd|
 R12
 R13
 Axilinx
@@ -293,16 +257,16 @@ R1
 R2
 R3
 R4
-Z51 DEx4 work 7 sin_rom 0 22 gP6d1jJ:GB^=^OIN<DnYQ1
+Z50 DEx4 work 7 sin_rom 0 22 gP6d1jJ:GB^=^OIN<DnYQ1
 l58
 L25
-Z52 VUKUnMVS>bAz6Jj44^BFO>2
-Z53 !s100 `SC;M@`bjcji7U61Tl1hl0
+Z51 VUKUnMVS>bAz6Jj44^BFO>2
+Z52 !s100 `SC;M@`bjcji7U61Tl1hl0
 R8
 32
 !i10b 1
+R47
 R48
 R49
-R50
 R12
 R13

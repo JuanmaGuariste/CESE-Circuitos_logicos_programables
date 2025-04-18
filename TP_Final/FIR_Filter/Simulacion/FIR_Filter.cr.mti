@@ -1,4 +1,14 @@
-C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/nco.vhd {1 {vcom -work work -2002 -explicit C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/nco.vhd
+C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/acum_fase.vhd {1 {vcom -work work -2002 -explicit C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/acum_fase.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity Acum_Fase
+-- Compiling architecture BEH of Acum_Fase
+
+} {} {}} C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/nco.vhd {1 {vcom -work work -2002 -explicit C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/nco.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -8,15 +18,15 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity nco
 -- Compiling architecture p of nco
 
-} {} {}} C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/acum_fase.vhd {1 {vcom -work work -2002 -explicit C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/acum_fase.vhd
+} {} {}} C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/FIR_Filter.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Juanma\Documents\CESE\CLP\TPs_CLP\TP_Final\FIR_Filter\Fuentes\FIR_Filter.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
 -- Loading package MATH_REAL
--- Compiling entity Acum_Fase
--- Compiling architecture BEH of Acum_Fase
+-- Compiling entity FIR_Filter
+-- Compiling architecture FIR_Filter_arq of FIR_Filter
 
 } {} {}} C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_cos.vhd {1 {vcom -work work -2002 -explicit C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter/Fuentes/sin_cos.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012

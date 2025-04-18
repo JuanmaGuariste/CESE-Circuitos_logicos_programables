@@ -15,17 +15,13 @@ architecture FIR_Filter_arq of FIR_Filter_tb is
     signal salGenEna    : std_logic;
     
     -- Señales para generación de señales de prueba
-    signal paso_sen_low   : unsigned(5 downto 0) := "000001";  -- Frecuencia baja
+    signal paso_sen_low   : unsigned(5 downto 0) := "000010";  -- Frecuencia baja
     signal paso_sen_high  : unsigned(5 downto 0) := "111110";  -- Frecuencia alta
     
     -- Señales de los NCOs (10 bits unsigned)
     signal sen_out_low    : unsigned(9 downto 0);
-    signal sen_out_high   : unsigned(9 downto 0);
-    
-    -- Señales procesadas (12 bits signed)
-    signal sen_low_c      : signed(11 downto 0);
-    signal sen_high_c     : signed(11 downto 0);
-    signal sen_sum_signed : signed(11 downto 0);
+    signal sen_out_high   : unsigned(9 downto 0);    
+
     signal sen_out_ext    : std_logic_vector(11 downto 0);
     
     -- Salida del FIR (12 bits)
@@ -115,25 +111,12 @@ begin
         process(clk)
         begin
             if rising_edge(clk) then
-                sen_low_c <= signed(resize(sen_out_low, DATA_W)) - to_signed(512, DATA_W);
-                sen_high_c <= signed(resize(sen_out_high, DATA_W)) - to_signed(512, DATA_W);
-                sen_sum_signed <= sen_low_c + sen_high_c;
-                sen_out_ext <= std_logic_vector(sen_sum_signed);
-
+                if salGenEna = '1' then 
+                    -- Ajusta el tamaño de las señales y las suma
+                    sen_out_ext <= std_logic_vector(resize(sen_out_low,12) + resize(sen_out_high,12));        
+                end if;
             end if;
         end process;
-    -- Centrado de señales (restar 512 para señales de 10 bits)
-    -- Conversión a 12 bits signed con extensión de signo correcta
-
-    --sen_low_c <= signed(resize(sen_out_low, DATA_W)) - to_signed(512, DATA_W);
-    --sen_high_c <= signed(resize(sen_out_high, DATA_W)) - to_signed(512, DATA_W);
-
-
-    -- Suma de señales (ya centradas)
-   -- sen_sum_signed <= sen_low_c + sen_high_c;
-
-    -- Conversión para el filtro FIR
-    --sen_out_ext <= std_logic_vector(sen_sum_signed);
 
     -- Instancia del filtro FIR
     uut_fir: FIR_Filter

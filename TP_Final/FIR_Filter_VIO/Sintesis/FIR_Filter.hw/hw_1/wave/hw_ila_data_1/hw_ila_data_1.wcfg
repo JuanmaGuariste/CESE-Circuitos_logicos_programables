@@ -11,14 +11,18 @@
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
       <ZoomEndTime time="2048001fs"></ZoomEndTime>
-      <Cursor1Time time="1110000fs"></Cursor1Time>
+      <Cursor1Time time="1966000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="175"></NameColumnWidth>
-      <ValueColumnWidth column_width="71"></ValueColumnWidth>
+      <ValueColumnWidth column_width="67"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="2" />
    <wave_markers>
+      <marker time="276000" label="" />
+      <marker time="736000" label="" />
+      <marker time="1418000" label="" />
+      <marker time="1288000" label="" />
    </wave_markers>
    <wvobject fp_name="sen_out_ext" type="array">
       <obj_property name="DisplayName">FullPathName</obj_property>

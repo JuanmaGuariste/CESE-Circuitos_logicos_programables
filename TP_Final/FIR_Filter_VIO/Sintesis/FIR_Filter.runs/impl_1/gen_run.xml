@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1744931373">
-  <File Type="PWROPT-DCP" Name="FIR_Filter_VIO_pwropt.dcp"/>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1745077419">
+  <File Type="OPT-HWDEF" Name="FIR_Filter_VIO.hwdef"/>
+  <File Type="PA-DCP" Name="FIR_Filter_VIO.dcp"/>
+  <File Type="OPT-DCP" Name="FIR_Filter_VIO_opt.dcp"/>
   <File Type="ROUTE-PWR" Name="FIR_Filter_VIO_power_routed.rpt"/>
   <File Type="PA-TCL" Name="FIR_Filter_VIO.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="FIR_Filter_VIO_power_summary_routed.pb"/>
@@ -8,10 +10,9 @@
   <File Type="BG-DRC" Name="FIR_Filter_VIO.drc"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="FIR_Filter_VIO_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="FIR_Filter_VIO_timing_summary_init.rpt"/>
-  <File Type="OPT-HWDEF" Name="FIR_Filter_VIO.hwdef"/>
-  <File Type="OPT-DCP" Name="FIR_Filter_VIO_opt.dcp"/>
   <File Type="OPT-DRC" Name="FIR_Filter_VIO_drc_opted.rpt"/>
   <File Type="OPT-TIMING" Name="FIR_Filter_VIO_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="FIR_Filter_VIO_pwropt.dcp"/>
   <File Type="PWROPT-DRC" Name="FIR_Filter_VIO_drc_pwropted.rpt"/>
   <File Type="PWROPT-TIMING" Name="FIR_Filter_VIO_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="FIR_Filter_VIO_placed.dcp"/>
@@ -126,9 +127,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

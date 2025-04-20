@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter_VIO/Fuentes/FIR_Filter.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity FIR_Filter
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Juanma/Documents/CESE/CLP/TPs_CLP/TP_Final/FIR_Filter_VIO/Fuentes/FIR_Filter_VIO.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity FIR_Filter_VIO
